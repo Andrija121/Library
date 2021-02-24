@@ -8,24 +8,23 @@ namespace Library
 {
     class User
     {
-        private string userName;
-        private List<User> usernames;
-        public string UserName { get; set; }
-
+        
+        private List<string> usernames=new List<string>();
      
-        public User AddUser(string userName)
+        public bool AddUser(string userName)
         {
             foreach (var user in usernames)
             {
-                if(user.UserName==userName)
+               if(userName==user)
                 {
-                    return user;
+                    return false;
                 }
                 
             }
-            return null;
+            usernames.Add(userName);
+            return true;
         }
-        public List<User> GetUsers()
+        public List<string> GetUsers()
         {
             return usernames;
         }

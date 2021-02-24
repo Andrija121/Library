@@ -8,24 +8,24 @@ namespace Library
 {
     class Book
     {
-        private List<BookInfo> books;
-        public Book()
-        {
-            this.books = new List<BookInfo>();
-        }
+    
+    
+        public string Name { get; set; }
+        public string Author { get; set; }
+        public string Year { get; set; }
 
-        public void AddBook(string name,string author,int year)
-        {
-            BookInfo bookInfo = new BookInfo();
-            bookInfo.Name = name;
-            bookInfo.Author = author;
-            bookInfo.Year = year.ToString();
 
-            books.Add(bookInfo);
-        }
-        public List<BookInfo> GetBookInfos()
+        public Book(string name, string author, int year)
         {
-            return books;
+           
+            this.Name = name;
+            this.Author = author;
+            this.Year = year.ToString();
+        }
+        
+        public string GetInfo()
+        {
+            return Name + " - " + Author + " - " + Year;
         }
 
     }

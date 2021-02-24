@@ -73,7 +73,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(328, 145);
+            this.textBox3.Location = new System.Drawing.Point(443, 65);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 26);
             this.textBox3.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(68, 227);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(123, 184);
+            this.listBox1.Size = new System.Drawing.Size(163, 184);
             this.listBox1.TabIndex = 4;
             // 
             // button1
@@ -101,16 +101,16 @@
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(317, 227);
+            this.listBox2.Location = new System.Drawing.Point(423, 207);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(123, 184);
+            this.listBox2.Size = new System.Drawing.Size(155, 204);
             this.listBox2.TabIndex = 6;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(317, 184);
+            this.button2.Location = new System.Drawing.Point(432, 104);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 37);
+            this.button2.Size = new System.Drawing.Size(123, 67);
             this.button2.TabIndex = 7;
             this.button2.Text = "Add User";
             this.button2.UseVisualStyleBackColor = true;
@@ -120,16 +120,16 @@
             // 
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 20;
-            this.listBox3.Location = new System.Drawing.Point(580, 184);
+            this.listBox3.Location = new System.Drawing.Point(704, 127);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(123, 184);
+            this.listBox3.Size = new System.Drawing.Size(234, 184);
             this.listBox3.TabIndex = 9;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(591, 134);
+            this.button3.Location = new System.Drawing.Point(760, 51);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 44);
+            this.button3.Size = new System.Drawing.Size(101, 70);
             this.button3.TabIndex = 8;
             this.button3.Text = "Add Rented Book";
             this.button3.UseVisualStyleBackColor = true;
@@ -137,12 +137,13 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(580, 386);
+            this.button4.Location = new System.Drawing.Point(751, 329);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(123, 45);
             this.button4.TabIndex = 10;
-            this.button4.Text = "Read Book";
+            this.button4.Text = "Return Book";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
@@ -175,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(964, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
