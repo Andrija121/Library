@@ -70,6 +70,9 @@ namespace Library
 
         private void button4_Click(object sender, EventArgs e)
         {
+            b.ReturnBook(listBox3.SelectedItem.ToString());
+            AddToListBox(listBox3, b.GetBooksInfo());
+            AddToListBox(listBox1, b.GetRegisteredBook());
             
         }
     }

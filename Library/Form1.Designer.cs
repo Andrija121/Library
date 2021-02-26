@@ -73,7 +73,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(443, 65);
+            this.textBox3.Location = new System.Drawing.Point(292, 65);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 26);
             this.textBox3.TabIndex = 3;
@@ -101,14 +101,14 @@
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(423, 207);
+            this.listBox2.Location = new System.Drawing.Point(272, 207);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(155, 204);
             this.listBox2.TabIndex = 6;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(432, 104);
+            this.button2.Location = new System.Drawing.Point(281, 104);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(123, 67);
             this.button2.TabIndex = 7;
@@ -127,9 +127,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(760, 51);
+            this.button3.Location = new System.Drawing.Point(500, 164);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 70);
+            this.button3.Size = new System.Drawing.Size(168, 70);
             this.button3.TabIndex = 8;
             this.button3.Text = "Add Rented Book";
             this.button3.UseVisualStyleBackColor = true;

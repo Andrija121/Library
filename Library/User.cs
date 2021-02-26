@@ -18,8 +18,7 @@ namespace Library
                if(userName==user)
                 {
                     return false;
-                }
-                
+                } 
             }
             usernames.Add(userName);
             return true;

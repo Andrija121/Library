@@ -52,6 +52,7 @@ namespace Library
                 }
             }
             books.RemoveAt(rentedBookIndex);
+
             string books1 = userName + " / " + bookInfo;
             landedBooks.Add(books1);
             
@@ -62,12 +63,27 @@ namespace Library
         }
         public void ReturnBook(string landedBookInfo)
         {
+            int rentedBookIndex = 0;
+            for (int i = 0; i <landedBooks.Count() ; i++)
+            {
+                if(landedBooks[i]==landedBookInfo)
+                {
+                    rentedBookIndex = i;
+                    break;
+                }
+                landedBooks.RemoveAt(rentedBookIndex);
+
+                string rentedbooks = landedBookInfo;
+                landedBooks.Add(rentedbooks);
+                
+            }
+
             //Ta knjiga lbi koju dobijem treba da izbrisem iz landed book kolekcije,
             // U stringu koji dobijem treba da izvucem autora, naziv knjige, i godinu
             // Te vrednosti treba da iskoristim da pozovem addBook metodu
             // Na form opet da refresujem listboxove(1,3)
             //manipulacija stringova
         }
-
+       
     }
 }
